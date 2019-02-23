@@ -18,7 +18,7 @@ Mac OSXのJapaneseInputMethodデータベースのパーサです。
 ## 使い方(MacOX)
 1. 作業用のディレクトリに移動します。
 
-   `$ cd ~/work`
+   `$ cd ~/Desktop/OSX_IME_Parser`
  
 2. データベースを読み込み、csvに出力します(python osx_ime_parser.py -f targetfile)。
 
