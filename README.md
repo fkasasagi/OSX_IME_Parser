@@ -16,13 +16,13 @@ Please refer this [blog](https://blog.hatena.ne.jp/kasasagi_f/padawan-4n6.hatena
 - python3 
  
 ## Usage for MacOS
-1. Go to the path where JapaneseInputMethod database exists.
+1. Go to the path where you work.
 
-   `$ cd ~/Library/Dictionaries/JapaneseInputMethod/`
+   `$ cd ~/work`
  
-2. Parse the database and output to csv file: 
+2. Parse the database and output it as csv format in the current directory(python osx_ime_parser.py -f targetfile): 
 
-    `$ python osx_ime_parser.py -f DynamicBigramPhraseLexicon_ja_JP.db`
+    `$ python osx_ime_parser.py -f /Users/USERNAME/Library/Dictionaries/JapaneseInputMethod/DynamicBigramPhraseLexicon_ja_JP.db`
 
 - Note: Timestamp in the output filename means modification time of the database file.
 
