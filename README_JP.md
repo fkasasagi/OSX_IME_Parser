@@ -10,7 +10,7 @@ Mac OSXのJapaneseInputMethodデータベースのパーサです。
 - LexicalLearning_ja_JP.db
 - NonLexicalLearning_ja_JP.db
 
-上記のデータベースの詳細は[ブログ](https://blog.hatena.ne.jp/kasasagi_f/padawan-4n6.hatenablog.com/edit?entry=17680117126971800903)を参照してください。
+上記のデータベースの詳細は[ブログ](https://padawan-4n6.hatenablog.com/entry/2019/02/23/231749)を参照してください。
 
 ## 環境
 - python3 
