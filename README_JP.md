@@ -16,11 +16,11 @@ Mac OSXのJapaneseInputMethodデータベースのパーサです。
 - python3 
  
 ## 使い方(MacOX)
-1. JapaneseInputMethodのディレクトリに移動します。
+1. 作業用のディレクトリに移動します。
 
    `$ cd ~/Library/Dictionaries/JapaneseInputMethod/`
  
-2. データベースを読み込み、csvに出力します。
+2. データベースを読み込み、csvに出力します(python osx_ime_parser.py -f targetfile)。
 
     `$ python osx_ime_parser.py -f DynamicBigramPhraseLexicon_ja_JP.db`
 
