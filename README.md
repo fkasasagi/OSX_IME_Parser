@@ -16,9 +16,9 @@ Please refer this [blog](https://padawan-4n6.hatenablog.com/entry/2019/02/23/231
 - python3 
  
 ## Usage for MacOS
-1. Go to the path where you work.
+1. Go to the path where you put osx_ime_parser.py.
 
-   `$ cd ~/work`
+   `$ cd ~/Desktop/OSX_IME_Parser`
  
 2. Parse the database and output it as csv format in the current directory(python osx_ime_parser.py -f targetfile): 
 
