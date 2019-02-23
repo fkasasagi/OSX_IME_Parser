@@ -69,10 +69,9 @@ if __name__ == '__main__':
                              default=os.path.expanduser('~') + '/Library/Dictionaries/JapaneseInputMethod/DynamicBigramPhraseIME_Lexicon_ja_JP.db')
     args = args_parser.parse_args()
 
-    print("[+] parse_IME_Lexicon DB for Mac OSX 14.x Ver.0.1")
-    print("[+] You must mount image on your system before you run it.")
+    print("[+] Parse_IME_Lexicon DB for Mac OSX")
     parse_IME_Lexicon = ParseIMELexicon(args.file)
     parse_IME_Lexicon.check_dbfile_present()
     parse_IME_Lexicon.parse_IME_Lexicon()
     parse_IME_Lexicon.write_csv()
-    print("[+] finish")
+    print("[+] Finish")
