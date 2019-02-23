@@ -10,7 +10,7 @@ Parser for JapaneseInputMethod database on Mac OSX
 - LexicalLearning_ja_JP.db
 - NonLexicalLearning_ja_JP.db
 
-Please refer this [blog](https://blog.hatena.ne.jp/kasasagi_f/padawan-4n6.hatenablog.com/edit?entry=17680117126971800903) about these database.
+Please refer this [blog](https://padawan-4n6.hatenablog.com/entry/2019/02/23/231749) about these database.
 
 ## Requirement
 - python3 
